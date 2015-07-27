@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8">
+    <title>jQuery.input-text-counter</title>
+    <script type="text/javascript" src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="jquery.input-text-counter.js"></script>
+  </head>
+  <body>
+
+    <div>
+      <input type="text" name="counter" id="counter" value="" />
+    </div>
+
+    <script type="text/javascript">
+      jQuery(function() 
+      {
+        jQuery("#counter").inputTextCounter({
+            limit: 50,
+            sentence: ' left characters'
+        });
+      });
+    </script>
+
+  </body>
+</html>
